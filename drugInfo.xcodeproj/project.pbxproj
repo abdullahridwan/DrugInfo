@@ -14,6 +14,7 @@
 		B548B50D277C2B9C00772205 /* drugInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548B50C277C2B9C00772205 /* drugInfoTests.swift */; };
 		B548B517277C2B9C00772205 /* drugInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548B516277C2B9C00772205 /* drugInfoUITests.swift */; };
 		B548B519277C2B9C00772205 /* drugInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548B518277C2B9C00772205 /* drugInfoUITestsLaunchTests.swift */; };
+		B548B529277C2BD100772205 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548B528277C2BD100772205 /* HomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B548B512277C2B9C00772205 /* drugInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drugInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B548B516277C2B9C00772205 /* drugInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drugInfoUITests.swift; sourceTree = "<group>"; };
 		B548B518277C2B9C00772205 /* drugInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drugInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B548B528277C2BD100772205 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,9 @@
 		B548B4FA277C2B9B00772205 /* drugInfo */ = {
 			isa = PBXGroup;
 			children = (
+				B548B527277C2BBE00772205 /* Utilities */,
+				B548B526277C2BB800772205 /* Models */,
+				B548B525277C2BB000772205 /* Views */,
 				B548B4FB277C2B9B00772205 /* drugInfoApp.swift */,
 				B548B4FD277C2B9B00772205 /* ContentView.swift */,
 				B548B4FF277C2B9C00772205 /* Assets.xcassets */,
@@ -125,6 +130,28 @@
 				B548B518277C2B9C00772205 /* drugInfoUITestsLaunchTests.swift */,
 			);
 			path = drugInfoUITests;
+			sourceTree = "<group>";
+		};
+		B548B525277C2BB000772205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B548B528277C2BD100772205 /* HomePageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B548B526277C2BB800772205 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B548B527277C2BBE00772205 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B548B4FE277C2B9B00772205 /* ContentView.swift in Sources */,
+				B548B529277C2BD100772205 /* HomePageView.swift in Sources */,
 				B548B4FC277C2B9B00772205 /* drugInfoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
